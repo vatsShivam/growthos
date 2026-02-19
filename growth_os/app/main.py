@@ -1,1 +1,6 @@
-# Main application file
+from fastapi import FastAPI
+from app.api.campaign import router
+
+app = FastAPI()
+
+app.include_router(router)
