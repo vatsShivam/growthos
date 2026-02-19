@@ -1,1 +1,1 @@
-# This is the main module.
+# Main application file
